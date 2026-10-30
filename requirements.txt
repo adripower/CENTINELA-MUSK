@@ -1,0 +1,8 @@
+# Dependencias del proyecto Centinela.
+# El servidor del catálogo no necesita nada: funciona con la biblioteca estándar.
+# Estas se van instalando a medida que avanzan las sesiones.
+
+requests>=2.31        # sesión 9: consumir la API
+pytest>=8.0           # sesión 11: tests
+typer>=0.12           # sesión 12: interfaz de línea de comandos
+rich>=13.7            # sesión 12: salida en consola
